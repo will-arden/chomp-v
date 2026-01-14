@@ -1,6 +1,6 @@
 # Vivado-related directories
 .Xil/*
-build/*
+project/*
 
 # Vivado generated
 *.jou
@@ -17,3 +17,4 @@ build/*
 # OS / editor junk
 .DS_Store
 *.swp
+nul

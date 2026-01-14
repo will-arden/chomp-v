@@ -1,6 +1,6 @@
 # Project settings
 set proj_name chomp-v
-set proj_dir  [file normalize "./build"]
+set proj_dir  [file normalize "./project"]
 set part_name xc7a35tcsg324-1   ;# CHANGE if needed
 
 # Create project
