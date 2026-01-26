@@ -11,12 +11,10 @@
 # Provide your Vivado installation location manually by setting this variable:
 # VIVADO_PATH := /path/to/vivado
 
-# Project variables
 TCL_SCRIPT := scripts/create_project.tcl
 
 ifndef VIVADO_PATH
   ifeq ($(OS),Windows_NT)
-    # On Windows, 'where' returns vivado.bat - we just want 'vivado'
     VIVADO_FULL := $(shell where vivado 2>nul)
     ifneq ($(VIVADO_FULL),)
       VIVADO := vivado
